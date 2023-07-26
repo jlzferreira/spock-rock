@@ -46,10 +46,12 @@ function resetSelected() {
 // Reset Placar e Escolhas
 function resetAll() {
   playerChoiceEl.textContent = ""
-  playerScoreEl.textContent = "0"
+  playerScoreEl.textContent = 0
+  playerScoreNumber = 0
 
   computerChoiceEl.textContent = ""
-  computerScoreEl.textContent = "0"
+  computerScoreEl.textContent = 0
+  computerScoreNumber = 0
 
   resultText.textContent = "Faça sua jogada!"
 
